@@ -1,6 +1,4 @@
 import Link from "next/dist/client/link";
-import WaveHoverText from "./BigText";
-import ColorfulHoverText from "./ColorfulHoverText";
 
 export default function Hero() {
   return (
@@ -29,12 +27,9 @@ export default function Hero() {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="text-center mt-12 md:mt-30">
           {/* Title */}
-          <WaveHoverText
-            text="SFIT SUMMER CODE CAMP"
-            className="text-white font-bold"
-            fontSize="5rem"
-          />
           <h1 className="text-6xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+            SFIT Summer Code Camp
+            <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
               Data & AI
             </span>

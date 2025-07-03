@@ -1,5 +1,3 @@
-import ScrollFloat from "./ScrollReveal";
-
 export default function About() {
   return (
     <section
@@ -34,34 +32,18 @@ export default function About() {
               Summer Code Camp
             </span>
           </h2>
-          <div className="text-xl text-gray-300 max-w-3xl mx-auto">
-            <ScrollFloat
-              animationDuration={1}
-              ease="back.inOut(2)"
-              scrollStart="center bottom+=50%"
-              scrollEnd="bottom bottom-=40%"
-              stagger={0.03}
-            >
-              Summer Code Camp là hành trình khám phá Data & AI, kết hợp chương
-              trình đào tạo chuyên sâu về AI, Big Data và sân chơi Hackathon để
-              các developer thử sức với những bài toán công nghệ thực tiễn.
-            </ScrollFloat>
-          </div>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            Summer Code Camp là hành trình khám phá Data & AI, kết hợp chương
+            trình đào tạo chuyên sâu về AI, Big Data và sân chơi Hackathon để
+            các developer thử sức với những bài toán công nghệ thực tiễn.
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <div className="text-2xl font-bold text-white">
-              <ScrollFloat
-                animationDuration={1}
-                ease="back.inOut(2)"
-                scrollStart="center bottom+=50%"
-                scrollEnd="bottom bottom-=40%"
-                stagger={0.03}
-              >
-                Tại sao tham gia Summer Code Camp?
-              </ScrollFloat>
-            </div>
+            <h3 className="text-3xl font-bold text-white mb-6">
+              Tại sao tham gia Summer Code Camp?
+            </h3>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-lg flex items-center justify-center flex-shrink-0 backdrop-blur-sm border border-cyan-400/30">
