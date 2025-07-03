@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/sfit.png",
+    icon: "/sfit.webp",
   },
   title: "Summer Code Camp",
   description: "Join us for an exciting summer of coding and innovation!",

@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/background.png')] bg-cover bg-center bg-no-repeat"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/background.webp')] bg-cover bg-center bg-no-repeat"
     >
       {/* Animated Background */}
       <div className="absolute inset-0">
@@ -66,7 +66,7 @@ export default function Hero() {
               {/* Airbnb */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/truong_3_11zon.jpg"
+                  src="/gtvt.webp"
                   alt="Trường Đại học Giao thông Vận tải"
                   className="h-16 w-auto object-contain rounded-full"
                 />
@@ -75,16 +75,16 @@ export default function Hero() {
               {/* BookMyShow */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/khoa.png"
+                  src="/khoa.webp"
                   alt="Khoa Công Nghệ Thông tin - Trường Đại học Giao thông Vận tải"
-                  className="h-20 w-auto object-contain rounded-full"
+                  className="h-17 w-auto object-contain rounded-full"
                 />
               </div>
 
               {/* Walmart */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/sfit_2_11zon.jpg"
+                  src="/sfit.webp"
                   alt="Trường Đại học Giao thông Vận tải - SFIT"
                   className="h-16 w-auto object-contain rounded-full"
                 />
@@ -93,7 +93,7 @@ export default function Hero() {
               {/* Amazon */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/doan.png"
+                  src="/doan.webp"
                   alt="Đoàn Trường Đại học Giao thông Vận tải"
                   className="h-16 w-auto object-contain"
                 />
@@ -102,7 +102,7 @@ export default function Hero() {
               {/* OLA */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/data-ai_6_11zon.jpg"
+                  src="/data-ai.webp"
                   alt="Đoàn Trường Đại học Giao thông Vận tải"
                   className="h-16 w-auto object-contain rounded-full "
                 />
