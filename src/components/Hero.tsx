@@ -66,9 +66,9 @@ export default function Hero() {
               {/* Airbnb */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/truong.png"
+                  src="/truong_3_11zon.jpg"
                   alt="Trường Đại học Giao thông Vận tải"
-                  className="h-16 w-auto object-contain"
+                  className="h-16 w-auto object-contain rounded-full"
                 />
               </div>
 
@@ -77,16 +77,16 @@ export default function Hero() {
                 <img
                   src="/khoa.png"
                   alt="Khoa Công Nghệ Thông tin - Trường Đại học Giao thông Vận tải"
-                  className="h-20 w-auto object-contain"
+                  className="h-20 w-auto object-contain rounded-full"
                 />
               </div>
 
               {/* Walmart */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/sfit.png"
+                  src="/sfit_2_11zon.jpg"
                   alt="Trường Đại học Giao thông Vận tải - SFIT"
-                  className="h-16 w-auto object-contain"
+                  className="h-16 w-auto object-contain rounded-full"
                 />
               </div>
 
@@ -102,7 +102,7 @@ export default function Hero() {
               {/* OLA */}
               <div className="flex items-center justify-center p-4">
                 <img
-                  src="/data-ai.jpg"
+                  src="/data-ai_6_11zon.jpg"
                   alt="Đoàn Trường Đại học Giao thông Vận tải"
                   className="h-16 w-auto object-contain rounded-full "
                 />

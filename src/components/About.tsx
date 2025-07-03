@@ -95,7 +95,7 @@ export default function About() {
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/clbsfit.jpg')",
+                  backgroundImage: "url('/clbsfit_5_11zon.jpg')",
                 }}
               >
                 <div className="absolute inset-0 bg-purple-900/50"></div>
@@ -105,13 +105,13 @@ export default function About() {
               <div
                 className="absolute top-10 left-10 w-16 h-16 bg-cover bg-center rounded-full opacity-70 animate-float shadow-lg"
                 style={{
-                  backgroundImage: "url('/sfit.png')",
+                  backgroundImage: "url('/sfit_2_11zon.jpg')",
                 }}
               ></div>
               <div
                 className="absolute bottom-10 right-10 w-12 h-12 bg-cover bg-center rounded-full opacity-60 animate-float shadow-lg"
                 style={{
-                  backgroundImage: "url('/sfit.png')",
+                  backgroundImage: "url('/sfit_2_11zon.jpg')",
                   animationDelay: "2s",
                 }}
               ></div>
