@@ -6,6 +6,8 @@ import Timeline from "@/components/Timeline";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
 import SpaceBackground from "@/components/SpaceBackground";
+import Hackathon from "@/components/Hackathon";
+import Speakers from "@/components/Speakers";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <Hero />
         <About />
         <Timeline />
+        <Hackathon />
+        <Speakers />
         <Sponsors />
         <Footer />
       </div>
