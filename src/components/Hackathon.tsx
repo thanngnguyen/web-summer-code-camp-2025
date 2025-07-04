@@ -127,19 +127,17 @@ export default function Hackathon() {
               <p className="text-cyan-400 text-lg mb-6 font-bold">
                 Chi tiết cuộc thi sẽ được công bố trong thời gian tới
               </p>
-              <div className="inline-block relative group">
-                <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 text-white px-12 py-4 rounded-full text-xl font-bold hover:shadow-2xl hover:shadow-blue-500/30 transform hover:scale-105 transition-all duration-300 relative overflow-hidden group">
-                  <Link
-                    href="https://forms.gle/rx8j4Bm4ci5ncWdFA"
-                    className="relative z-10"
-                    target="_blank"
-                  >
-                    Đăng ký ngay để nhận thông báo
-                  </Link>
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-blue-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </button>
-                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-full opacity-20 group-hover:opacity-30 transition-opacity blur"></div>
-              </div>
+
+              <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 text-white px-12 py-4 rounded-full text-xl font-bold hover:shadow-2xl hover:shadow-blue-500/30 transform hover:scale-105 transition-all duration-300 relative overflow-hidden group">
+                <Link
+                  href="https://forms.gle/rx8j4Bm4ci5ncWdFA"
+                  className="relative z-10"
+                  target="_blank"
+                >
+                  Đăng ký ngay để nhận thông báo
+                </Link>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-blue-500 to-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </button>
             </div>
           </div>
 
