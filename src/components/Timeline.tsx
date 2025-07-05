@@ -22,7 +22,7 @@ export default function Timeline() {
       color: "purple",
     },
     {
-      date: "16/08/2025",
+      date: "23/08/2025",
       title: "Talkshow",
       description:
         "Tổ chức Talkshow gặp gỡ các senior, diễn giả và chuyên gia trong ngành",
@@ -42,8 +42,7 @@ export default function Timeline() {
     {
       date: "30/08/2025 - 12/09/2025",
       title: "Hackathon chính",
-      description:
-        "Coding và phát triển sản phẩm đề tài cho trước trong 5 ngày",
+      description: "Coding và phát triển sản phẩm đề tài cho trước",
       image:
         "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       color: "yellow",
